@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:800&display=swap');
+
+.Header {
+    width: 90%;
+    height: 400px;
+    margin: 0 auto;
+    background-color:#B954F4;
+
+}
+
+.HomeContent {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Home-title {
+    font-family: 'Helvetica Neue';
+    font-weight: 100;
+    font-size: 50px;
+    text-align: end;
+    text-transform: uppercase;
+    color: white;
+    width: 800px;
+    height: 70px;
+    margin-top: 10%;
+    margin-bottom: 0;
+}
+
+.Home-subtitle {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 20px;
+    color: white;
+    /* background-color: orange; */
+}
+
+#DestinyJ {
+    width: 400px;
+    margin-left: 30%;
+    margin-top: 95px;
+
+}
+
+

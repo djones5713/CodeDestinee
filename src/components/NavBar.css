@@ -1,0 +1,43 @@
+#Navigation {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    justify-content: flex-end;
+    font-family: 'Helvetica Neue';
+    /* background-color: yellow; */
+}
+
+#NavLogo {
+    display: flex;
+    width: 65%;
+    /* background-color: orange; */
+}
+
+#CodeDestinee {
+    width: 50px;
+    height: 50px;
+}
+
+#LogoName {
+    margin-left: 5px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #5B367B;
+}
+
+.NavLink {
+    text-decoration: none;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 20px;
+    color: #5B367B;
+    font-weight: 700;
+}
+
+.NavLink:hover {
+    color: #000000;
+}
+
+#SearchIcon {
+    width: 20px;
+}
