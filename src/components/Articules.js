@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ArticuleItems from './ArticuleItems';
 import axios from 'axios';
+import './Articules.css';
 
 class Articules extends Component {
     constructor(){
@@ -25,7 +26,7 @@ class Articules extends Component {
        const { books, isLoaded } = this.state;
        if(isLoaded) {
         return (
-            <div>
+            <div className="Articule-container">
                 { books.map(book => (
                     <ArticuleItems  key={ book.id} book={book} />
                 )) }

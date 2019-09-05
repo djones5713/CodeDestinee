@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import axios from 'axios';
+import './ArticuleItems.css';
 
 class ArticuleItems extends Component {
     state = {
         imageURL: '',
-        author: '',
         isLoading: false
     }
     static propTypes = {
@@ -22,7 +22,6 @@ class ArticuleItems extends Component {
           
             this.setState({
                 imageURL: res[0].data.media_details.sizes.full.source_url,
-                author: res[1].data.name,
                 isLoading: true
             })
         })
@@ -30,16 +29,14 @@ class ArticuleItems extends Component {
 
     render(){
         const { id, title, excerpt } = this.props.book
-        const { author, imageURL, isLoading } = this.state
+        const {imageURL, isLoading } = this.state
         if(isLoading){
             return (
-                <div>
-                    <h2 style={{ marginBottom: '0' }}>{ title.rendered }</h2>
-                    <small>Review by <strong> {author}</strong></small>
-                    <img style={{ width: '100%' }} src={ imageURL } alt={title.rendered} />
-                    <div dangerouslySetInnerHTML={{ __html: excerpt.rendered}} />
-                    <Link to={`/book/${id}`}>Read Review</Link>
-                    <hr/>
+                <div className="Articule-itemstyle">
+                    <img className="Articule-img" src={ imageURL } alt={title.rendered} />
+                    <h2 className="Articule-title">{ title.rendered }</h2>
+                    <p className="Articule-blurb" dangerouslySetInnerHTML={{ __html: excerpt.rendered}} />
+                    <Link className="Articule-link" to={`/book/${id}`}>Read More</Link>
                 </div>
             )
 

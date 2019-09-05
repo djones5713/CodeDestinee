@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 
 .Header {
     width: 90%;
@@ -13,31 +13,51 @@
     justify-content: flex-end;
 }
 
+.Home-HeaderContent {
+    width: 300px;
+}
+
 .Home-title {
     font-family: 'Helvetica Neue';
     font-weight: 100;
-    font-size: 50px;
-    text-align: end;
+    font-size: 70px;
+    text-align: start;
     text-transform: uppercase;
     color: white;
     width: 800px;
     height: 70px;
-    margin-top: 10%;
+    margin-top: 100px;
     margin-bottom: 0;
 }
 
 .Home-subtitle {
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 20px;
     color: white;
-    /* background-color: orange; */
+    margin-left: 250px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 5px;
+    width: 200px;
+    letter-spacing: 2px;
 }
 
 #DestinyJ {
-    width: 400px;
+    width: 450px;
     margin-left: 30%;
-    margin-top: 95px;
-
+    margin-top: 56px;
 }
 
 
+.Home-BottomContent {
+    background-color:  #F4F2F2;
+    margin: 0 auto;
+    width: 90%;
+}
+
+@media only screen and (max-width: 1200px){
+    .Home-title{
+         font-size: 60px;
+         margin-left: 100px;
+    }
+}

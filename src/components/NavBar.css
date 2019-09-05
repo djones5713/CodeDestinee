@@ -9,7 +9,7 @@
 
 #NavLogo {
     display: flex;
-    width: 65%;
+    width: 75%;
     /* background-color: orange; */
 }
 
@@ -35,7 +35,7 @@
 }
 
 .NavLink:hover {
-    color: #000000;
+    color: #B954F4;
 }
 
 #SearchIcon {

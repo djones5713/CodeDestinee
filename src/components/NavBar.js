@@ -8,8 +8,9 @@ function Navbar(){
     return (
         <div id="Navigation">
             <div id="NavLogo">
-                 <img id="CodeDestinee" src={Logo} alt="Logo" />
-                 <h3 id="LogoName">Code <br/> Destinee</h3>
+                <Link to='/'><img id="CodeDestinee" src={Logo} alt="Logo" /></Link>
+                    <h3 id="LogoName">Code <br/> Destinee</h3>
+                
             </div>
             
             <div>
