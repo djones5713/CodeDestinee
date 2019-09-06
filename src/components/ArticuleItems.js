@@ -32,12 +32,14 @@ class ArticuleItems extends Component {
         const {imageURL, isLoading } = this.state
         if(isLoading){
             return (
+               
                 <div className="Articule-itemstyle">
                     <img className="Articule-img" src={ imageURL } alt={title.rendered} />
                     <h2 className="Articule-title">{ title.rendered }</h2>
                     <p className="Articule-blurb" dangerouslySetInnerHTML={{ __html: excerpt.rendered}} />
                     <Link className="Articule-link" to={`/book/${id}`}>Read More</Link>
                 </div>
+             
             )
 
         } 
