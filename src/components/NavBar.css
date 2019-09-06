@@ -14,15 +14,19 @@
 }
 
 #CodeDestinee {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
 }
 
 #LogoName {
     margin-left: 5px;
-    font-size: 12px;
+    font-size: 13px;
     text-transform: uppercase;
     color: #5B367B;
+}
+
+#Navbar {
+    width: 700px;
 }
 
 .NavLink {
@@ -40,4 +44,39 @@
 
 #SearchIcon {
     width: 20px;
+}
+
+#Navigation-mini{
+    width: 90%;
+    height: 60px;
+    margin: 0 auto;
+    display: none;
+    background-color: #5B367B;
+}
+
+.Mini-nav{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+@media only screen and (max-width: 1200px){
+    #Navbar {
+        width: 800px;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    #Navigation {
+        display: none;
+    }
+    
+    #NavLogo {
+        display: none;
+    }
+
+    #Navigation-mini{
+        display: block;
+    }
 }

@@ -17,6 +17,10 @@
     width: 300px;
 }
 
+#NavLogo-mini {
+    display: none;
+}
+
 .Home-title {
     font-family: 'Helvetica Neue';
     font-weight: 100;
@@ -57,7 +61,80 @@
 
 @media only screen and (max-width: 1200px){
     .Home-title{
-         font-size: 60px;
-         margin-left: 100px;
+        margin-top: 10px;
+        font-size: 60px;
+        margin-left: 100px;
+    }
+}
+
+@media only screen and (max-width: 1100px){
+    .Home-title{
+        margin-top: 10px;
+        font-size: 60px;
+        margin-left: 140px;
+    }
+
+}
+
+@media only screen and (max-width: 1150px){
+    .Header {
+        height: 627px;
+        margin: 0 auto;
+    }
+    .HomeContent {
+        display: flex;
+        flex-direction: column;
+    }
+    #DestinyJ {
+        margin-top: 122px;
+    }
+   
+}
+
+@media only screen and (max-width: 900px){
+    #NavLogo-mini {
+        display: block;
+        display:flex;
+        margin-left: 350px;
+        margin-top: 10px;
+    }
+
+    #CodeDestinee-mini {
+        width: 80px;
+        height: 80px;
+        margin-top: 12px;
+    }
+
+    #LogoName-mini {
+        font-size: 25px;
+        text-transform: uppercase;
+        font-family: 'Helvetica Neue';
+        margin-left: 10px;
+    }
+
+    #DestinyJ {
+        margin-top: 0px;
+    }
+}
+
+
+
+@media only screen and (max-width: 800px){
+
+    .Home-title{
+       margin: 0 auto;
+       padding-left: 30px;
+    }
+
+    #NavLogo-mini {
+        justify-content: center;
+    }
+
+    #DestinyJ {
+        margin: 0 auto;
+    }
+
+    .Header {
+        height: 617px;
     }
 }

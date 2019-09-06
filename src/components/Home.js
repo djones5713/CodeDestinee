@@ -3,6 +3,7 @@ import NavBar from './NavBar';
 import Articules from './Articules';
 import Destiny1 from './Images/Destiny1.png';
 import './Home.css';
+import Logo from './Images/Icon.png';
 
 
 
@@ -21,6 +22,10 @@ render(){
             <div className='Header'>
                 <div className='HomeContent'>
                     <div className="Home-HeaderContent">
+                        <div id="NavLogo-mini">
+                            <img id="CodeDestinee-mini" src={Logo} alt="Logo" />
+                            <h3 id="LogoName-mini">Code <br/> Destinee</h3>
+                        </div>
                          <h1 className='Home-title'>Its About Code </h1>
                          <h6 className='Home-subtitle'><strong>Code Everything</strong></h6>
                     </div>
