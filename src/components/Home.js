@@ -11,7 +11,8 @@ class Home extends Component {
     constructor(props){
     super(props)
     this.state = {
-
+        title: "Its About Code",
+        subtitle: "Its About Code"
     }
 }
 
@@ -26,8 +27,8 @@ render(){
                             <img id="CodeDestinee-mini" src={Logo} alt="Logo" />
                             <h3 id="LogoName-mini">Code <br/> Destinee</h3>
                         </div>
-                         <h1 className='Home-title'>Its About Code </h1>
-                         <h6 className='Home-subtitle'><strong>Code Everything</strong></h6>
+                         <h1 className='Home-title'>{this.state.title} </h1>
+                         <h6 className='Home-subtitle'><strong>{this.state.subtitle}</strong></h6>
                     </div>
                     <img id='DestinyJ' src={Destiny1} alt='Destiny Jones' />
                 </div>
