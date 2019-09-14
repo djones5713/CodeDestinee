@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import NavBar from './NavBar';
 
-class Home extends Component {
+class Blog extends Component {
     constructor(props){
     super(props)
     this.state = {
@@ -11,10 +12,10 @@ class Home extends Component {
 render(){
     return(
         <div>
-            
+            <NavBar />
         </div>
     )
 }
 }
 
-export default Home
+export default Blog

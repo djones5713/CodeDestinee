@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.skills-container {
+    margin-top: 20px;
+    background-color: white;
+    border: 1px solid darkgrey;
+    width: 300px;
+    text-align: center;
+}
+
+.skills-subtitle {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+.skills-container p {
+    font-family: 'Helvetica Neue';
+    color: grey;
+}
+
+.skills-img {
+    margin-top: 20px;
+}
