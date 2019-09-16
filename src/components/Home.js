@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import NavBar from './NavBar';
 import Articules from './Articules';
+import Feature from './Feature';
 import Destiny1 from './Images/Destiny1.png';
 import './Home.css';
 import Logo from './Images/Icon.png';
@@ -35,6 +36,7 @@ render(){
             </div>
             <div className='Home-BottomContent'>
                 <Articules/>
+                <Feature />
             </div>
             
            

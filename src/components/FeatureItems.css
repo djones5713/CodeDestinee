@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+.Feature-itemstyle{
+    background-color: white;
+    position: relative;
+    width: 580px;
+}
+
+.Feature-img {
+    width: 580px;
+    height: 350px;
+}
+
+.Feature-tag {
+    position: absolute;
+    top: 200px;
+    width: 200px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    background-color: black;
+    font-family: 'Oswald', sans-serif;
+    color: white
+}
+
+.Feature-title {
+    position: absolute;
+    top: 240px;
+    left: 20px;
+    width: 350px;
+    font-size: 32px;
+    font-family:  'Helvetica Neue';
+    color: white;
+    font-weight: 300;
+}
+
+.Feature-blurb {
+    width: 550px;
+    height: 200px;
+    text-align: center;
+    margin-top: -5px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 300;
+    background-color: white;
+    font-family:  'Helvetica Neue';
+    line-height: 1.5;
+}
+
+.Feature-link {
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+}
+
+.Feature-link:hover {
+    color: #B954F4;
+}
