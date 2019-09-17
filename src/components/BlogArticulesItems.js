@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import axios from 'axios';
-import './ArticuleItems.css';
+import './BlogArticulesItems.css';
 
-class ArticuleItems extends Component {
+class BlogArticulesItems extends Component {
     state = {
         imageURL: '',
         isLoading: false
@@ -33,11 +33,11 @@ class ArticuleItems extends Component {
         if(isLoading){
             return (
                
-                <div className="Articule-itemstyle">
-                    <img className="Articule-img" src={ imageURL } alt={title.rendered} />
-                    <h2 className="Articule-title">{ title.rendered }</h2>
-                        <p className="Articule-blurb" dangerouslySetInnerHTML={{ __html: excerpt.rendered}} />
-                        <Link className="Articule-link" to={`/book/${id}`}>Read More</Link>
+                <div className="ArticuleBlog-itemstyle">
+                    <img className="ArticuleBlog-img" src={ imageURL } alt={title.rendered} />
+                    <p className="ArticuleBlog-tag-description">Guide</p>
+                    <h2 className="ArticuleBlog-title">{ title.rendered }</h2>
+                    
                 </div>
              
             )
@@ -50,4 +50,4 @@ class ArticuleItems extends Component {
 
 }
 
-export default ArticuleItems 
+export default BlogArticulesItems

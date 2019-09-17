@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import ArticuleItems from './ArticuleItems';
+import BlogItems from './BlogItems';
 import axios from 'axios';
-import './Articules.css';
+import './ListBlogs.css';
 
-class Articules extends Component {
+class ListBlogs extends Component {
     constructor(){
     super()
     this.state = {
@@ -26,9 +26,10 @@ class Articules extends Component {
        const { books, isLoaded } = this.state;
        if(isLoaded) {
         return (
-            <div className="Articule-container">
+            <div className="Blog-container">
+                 <h2 className='Blog-container-title'>More Blogs</h2>
                 { books.map(book => (
-                    <ArticuleItems  key={ book.id} book={book} />
+                    <BlogItems  key={ book.id} book={book} />
                 )) }
             </div>
         )
@@ -38,4 +39,4 @@ class Articules extends Component {
     }
 }
 
-export default Articules
+export default ListBlogs

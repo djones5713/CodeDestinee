@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import ArticuleItems from './ArticuleItems';
+import BlogArticulesItems from './BlogArticulesItems';
 import axios from 'axios';
 import './Articules.css';
 
-class Articules extends Component {
+class BlogArticules extends Component {
     constructor(){
     super()
     this.state = {
@@ -28,7 +28,7 @@ class Articules extends Component {
         return (
             <div className="Articule-container">
                 { books.map(book => (
-                    <ArticuleItems  key={ book.id} book={book} />
+                    <BlogArticulesItems  key={ book.id} book={book} />
                 )) }
             </div>
         )
@@ -38,4 +38,4 @@ class Articules extends Component {
     }
 }
 
-export default Articules
+export default BlogArticules

@@ -2,19 +2,19 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import axios from 'axios';
-import './ArticuleItems.css';
+import './FeatureBlogPageItem.css';
 
-class ArticuleItems extends Component {
+class FeatureBlogPageItem extends Component {
     state = {
         imageURL: '',
         isLoading: false
     }
     static propTypes = {
-        book: PropTypes.object.isRequired
+        feature: PropTypes.object.isRequired
     }
-  
+
     componentDidMount(){
-        const { featured_media, author } = this.props.book;
+        const { featured_media, author } = this.props.feature;
         const getImageURL = axios.get(`/wp-json/wp/v2/media/${featured_media}`)
         const getAuthor = axios.get(`/wp-json/wp/v2/users/${author}`);
 
@@ -28,17 +28,18 @@ class ArticuleItems extends Component {
     }
 
     render(){
-        const { id, title, excerpt } = this.props.book
+        const { id, title, excerpt } = this.props.feature
         const {imageURL, isLoading } = this.state
         if(isLoading){
             return (
                
-                <div className="Articule-itemstyle">
-                    <img className="Articule-img" src={ imageURL } alt={title.rendered} />
-                    <h2 className="Articule-title">{ title.rendered }</h2>
-                        <p className="Articule-blurb" dangerouslySetInnerHTML={{ __html: excerpt.rendered}} />
-                        <Link className="Articule-link" to={`/book/${id}`}>Read More</Link>
+                <div className="FeatureBlog-itemstyle">
+                    <img className="FeatureBlog-img" src={ imageURL } alt={title.rendered} />
+                    <h2 className="FeatureBlog-tag">Lastest Blog</h2>
+                    <h2 className="FeatureBlog-title">{ title.rendered }</h2>
+                   
                 </div>
+                
              
             )
 
@@ -50,4 +51,4 @@ class ArticuleItems extends Component {
 
 }
 
-export default ArticuleItems 
+export default FeatureBlogPageItem
