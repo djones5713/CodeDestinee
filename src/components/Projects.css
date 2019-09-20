@@ -14,6 +14,14 @@
     justify-content: center;
 }
 
+.Project-subtitle {
+    display: block;
+    margin-top: 50px;
+    color: white;
+    text-decoration: none;
+
+}
+
 .Project-container div:nth-child(1){
     background-color: #8554F4;
 }
@@ -36,7 +44,7 @@
     height: 100px;
     opacity: .72;
     text-transform: uppercase;
-
+    margin-bottom: 20px;
 }
 
 .Project-box h3 {
@@ -51,8 +59,8 @@
     }    
 
     .Project-box {
-        width: 80%;
-        height: 100px;
+        width: 60%;
+        height: 150px;
     }
-    
+
 }

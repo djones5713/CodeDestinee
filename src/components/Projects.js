@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Projects.css';
 
 function Projects(props) {
@@ -7,13 +8,13 @@ function Projects(props) {
             <h2 className="Project-title">Personal Projects</h2>
             <div className="Project-container">
                 <div className="Project-box">
-                    <h3>TravelBook</h3>
+                    <Link className="Project-subtitle">TravelBook</Link>
                 </div>
                 <div className="Project-box">
-                    <h3>Yelp</h3>
+                    <Link className="Project-subtitle">Yelp</Link>
                 </div>
                 <div className="Project-box">
-                    <h3>Vitamin Water</h3>
+                    <Link className="Project-subtitle">Vitamin Water</Link>
                 </div>
             </div>
         </div>

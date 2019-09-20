@@ -49,3 +49,25 @@
 .Feature-link:hover {
     color: #B954F4;
 }
+
+@media only screen and (max-width: 1300px) {
+
+    .FeatureBlog-itemstyle{
+        width: 580px;
+    }
+    
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .FeatureBlog-itemstyle{
+        width: 100%;
+        
+    }
+
+    .FeatureBlog-img {
+        margin-top: -16px;
+    }
+
+}
