@@ -76,18 +76,26 @@
     
     .Articule-img{
         margin: 0;
-        width: 500px;
-        height: 200px;
+        width: 700px;
+        height: 300px;
+    }
+
+    .Articule-title{
+        margin: 0;
+        font-size: 25px;
     }
 
     .Articule-blurb{
         margin: 0 auto;
-        width: 450px; 
+        font-size: 18px;
+        padding: 5px;
+        width: 600px; 
         height: 160px;
     }
 
     .Articule-link{
         margin-top: -20px;
         padding: 5px;
+        font-size: 18px;
     }
 }

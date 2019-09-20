@@ -44,6 +44,7 @@
     padding-left: 15px;
     padding-right: 15px;
     font-weight: 300;
+    font-size: 18px;
     background-color: white;
     font-family:  'Helvetica Neue';
     line-height: 1.5;
@@ -54,11 +55,78 @@
     display: block;
     padding-bottom: 20px;
     text-align: center;
-    font-size: 15px;
+    font-size: 18px;
     color: black;
     font-family: 'Oswald', sans-serif;
 }
 
 .Feature-link:hover {
     color: #B954F4;
+}
+
+@media only screen and (max-width: 1400px){
+    .Feature-itemstyle{
+        width: 600px;
+        margin-right: 0;
+    }
+
+    .Feature-img {
+        width: 600px;
+        height: 350px;
+    }
+
+    .Feature-blurb { 
+        width: 570px;
+        height: 300px;
+    }
+
+   
+
+}
+
+@media only screen and (max-width: 1300px){
+    .Feature-itemstyle{
+        width: 800px;
+    }
+
+    .Feature-img {
+        width: 800px;
+        height: 350px;
+    }
+
+    .Feature-blurb { 
+        width: 750px;
+        height: 200px;
+    }
+
+    .Feature-link {
+        text-align: center;
+        display: block;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 1100px){
+    .Feature-itemstyle{
+        width: 800px;
+    }
+
+    .Feature-img {
+        width: 800px;
+        height: 350px;
+    }
+
+    .Feature-blurb { 
+        width: 770px;
+        height: 300px;
+    }
+
+    .Feature-link {
+        text-align: center;
+        display: block;
+        font-size: 18px;
+    }
+
 }

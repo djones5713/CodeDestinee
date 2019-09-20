@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import NavBar from './NavBar';
 import FeatureBlogPage from './FeatureBlogPage';
-import BlogArticules from './BlogArticules';
+import Articules from './Articules';
 import './Blog.css';
 
 class Blog extends Component {
@@ -26,7 +26,7 @@ render(){
                         </div>
                        
                     </div>
-                    <BlogArticules />
+                    <Articules />
                 </div>
             
         </div>

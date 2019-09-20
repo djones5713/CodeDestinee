@@ -5,6 +5,22 @@
     text-align: center;
 }
 
-/* .Blog-title {
+.Blog-title {
+    font-family: 'Helvetica Neue';
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+}
+
+.Blog-title:hover {
+    text-decoration: underline;
   
-} */
+}
+
+@media only screen and (max-width: 1300px) {
+    .Blog-itemstyle {
+        width: 800px;
+        
+    }
+
+}

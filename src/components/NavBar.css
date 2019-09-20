@@ -63,6 +63,8 @@
 
 
 @media only screen and (max-width: 1100px){
+
+
     #Navigation {
         display: none;
     }
@@ -73,5 +75,6 @@
 
     #Navigation-mini{
         display: block;
+        width: 100%;
     }
 }
