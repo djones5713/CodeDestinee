@@ -2,8 +2,8 @@
 
 .Contact-Box {
     background-color: #FDFDFD;
-    width: 70%;
-    height: 630px;
+    width: 100%;
+    height: 470px;
     border: 1px solid #B954F4;
     margin: 0 auto;
 }
@@ -14,7 +14,7 @@
     font-family: 'Helvetica Neue';
     font-weight: 300;
     font-size: 30px;
-    margin-top: 60px;
+    margin-top: 20px;
     color:#B954F4;
 }
 
@@ -43,7 +43,7 @@
 
 .Contact-Input-Message {
     width: 500px;
-    height: 200px;
+    height: 150px;
     border: 1px solid #B954F4;
 }
 
@@ -55,6 +55,13 @@
     margin-top: 30px;
 }
 
+.Contact-Input-subtitle-message {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 30px;
+}
 .Contact-Input {
     width: 250px;
     height: 30px;
@@ -68,4 +75,22 @@
     height: 30px;
     width: 300px;
     color: white;
+}
+
+
+@media only screen and (max-width: 800px){
+    .Contact-Box {
+        background-color: #FDFDFD;
+        height: 570px;
+   
+    }
+    .Contact-Top-Input {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Contact-Input {
+        width: 500px;
+    }
 }

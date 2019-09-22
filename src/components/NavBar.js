@@ -2,8 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Search from './Images/Search.png';
 import Logo from './Images/Icon.png';
+import NavMini from './NavMini'
 import './NavBar.css';
-import bars from './Images/bars.png';
+
+
 
 function Navbar(){
     return (
@@ -22,9 +24,8 @@ function Navbar(){
                 <img className="NavLink" id="SearchIcon" src={Search} alt="Search-Icon" />
             </div>
         </div>
-        <div id="Navigation-mini"> 
-            <img className="Mini-nav" src={bars} alt="nav-icon"/>
-        </div>
+        
+        <NavMini />
         </div>
     )
 }

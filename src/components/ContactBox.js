@@ -11,7 +11,6 @@ class ContactBox extends Component {
     render(){
         return (
             <div className="Contact-Box">
-                <h2 className="Contact-Title">Let's Talk Code</h2>
                 <div className="Contact-Top-Input">
                     <div className="Left">
                         <h3 className="Contact-Input-subtitle">Name</h3>
@@ -23,7 +22,7 @@ class ContactBox extends Component {
                     </div>
                 </div>
                 <div className="Contact-Bottom-Input">
-                    <h3 className="Contact-Input-subtitle">Message</h3>
+                    <h3 className="Contact-Input-subtitle-message">Message</h3>
                     <input className="Contact-Input-Message" />
                     <button  className="Contact-Button">Submit</button>
                 </div>

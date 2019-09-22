@@ -44,9 +44,10 @@
 
 #SearchIcon {
     width: 20px;
+    visibility: hidden;
 }
 
-#Navigation-mini{
+#Navigation-mini {
     width: 90%;
     height: 60px;
     margin: 0 auto;
@@ -54,13 +55,16 @@
     background-color: #5B367B;
 }
 
-.Mini-nav{
+.Mini-nav {
     width: 40px;
     height: 40px;
-    margin-left: 10px;
-    margin-top: 5px;
+   margin: 0 auto;
 }
 
+.button-nav {
+    background-color: #5B367B;
+    border: none;
+}
 
 @media only screen and (max-width: 1100px){
 

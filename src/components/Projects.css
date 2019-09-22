@@ -14,9 +14,10 @@
     justify-content: center;
 }
 
+
 .Project-subtitle {
     display: block;
-    margin-top: 50px;
+    margin-top: 40px;
     color: white;
     text-decoration: none;
 
@@ -26,12 +27,26 @@
     background-color: #8554F4;
 }
 
+.Project-container div:nth-child(1):hover{
+    background-color: darkslateblue;
+
+}
+
 .Project-container div:nth-child(2){
     background-color: #B954F4;
 }
 
+.Project-container div:nth-child(2):hover{
+    background-color: purple;
+}
+
+
 .Project-container div:nth-child(3){
     background-color: #550584;
+}
+
+.Project-container div:nth-child(3):hover{
+    background-color: rgb(51, 4, 79);
 }
 
 .Project-box {
