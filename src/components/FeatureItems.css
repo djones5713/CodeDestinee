@@ -4,8 +4,10 @@
     background-color: white;
     position: relative;
     width: 870px;
-    margin-right:25px;
-    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
 }
 
 .Feature-img {
@@ -95,13 +97,16 @@
     }
 
     .Feature-blurb { 
-        width: 750px;
+        width: 770px;
         height: 200px;
+        padding-left: 20px;
+        padding-right: 10px;
     }
 
     .Feature-link {
         text-align: center;
         display: block;
+       
     }
 
 }
@@ -127,6 +132,23 @@
         text-align: center;
         display: block;
         font-size: 18px;
+       
     }
+
+}
+
+@media only screen and (max-width: 800px){
+    .Feature-itemstyle{
+       width: 780px;
+    }
+
+    .Feature-img {
+        width: 780px;
+    }
+
+    .Feature-blurb { 
+        width: 670px;
+    }
+
 
 }

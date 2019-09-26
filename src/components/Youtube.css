@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     margin-top: 30px;
+    width:  100%;
    
 }
 
@@ -77,6 +78,14 @@
 
     .Youtube-Box {
         width: 800px;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+
+    .Youtube-Box {
+        width: 780px;
     }
 
 }

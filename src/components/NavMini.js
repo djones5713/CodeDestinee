@@ -44,9 +44,9 @@ class NavMini  extends Component {
                 ? (
                 <div className="Navmenu">
                     <Link className="NavLink-mini" to='/'>Home</Link>
-                    <Link className="NavLink-mini" to='/CodeDestinee/About'>About</Link>
-                    <Link className="NavLink-mini" to='/CodeDestinee/Blog'>Blog</Link>
-                    <Link className="NavLink-mini" to='/CodeDestinee/Contact'>Contact</Link>
+                    <Link className="NavLink-mini" to='/About'>About</Link>
+                    <Link className="NavLink-mini" to='/Blog'>Blog</Link>
+                    <Link className="NavLink-mini" to='/Contact'>Contact</Link>
                 </div>
                 )
                 : (

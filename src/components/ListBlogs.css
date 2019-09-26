@@ -8,11 +8,16 @@
 .Blog-container-title {
     background-color: white;
     font-family: 'Oswald', sans-serif;
+    width: 340px;
     margin-bottom: 0;
-    margin-top: 0;
     padding-top: 20px;
     padding-bottom: 20px;
     text-transform: uppercase;
     text-align: center;
 }
 
+@media only screen and (max-width: 1300px){
+    .Blog-container-title {
+        width: 790px;
+    }
+}

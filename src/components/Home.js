@@ -39,9 +39,8 @@ render(){
             <div className='Home-BottomContent'>
                 <Articules/>
                 <div className='Home-BottomContent-Two'>
-                    <Feature />
-                    <ListBlogs />
-                   
+                        <Feature />
+                        <ListBlogs />
                 </div>
                 < Youtube />
             </div>

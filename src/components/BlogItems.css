@@ -9,7 +9,8 @@
     font-family: 'Helvetica Neue';
     text-decoration: none;
     color: black;
-    font-weight: 100;
+    font-weight: 300;
+    font-size: 18px;
 }
 
 .Blog-title:hover {
@@ -20,8 +21,14 @@
 
 @media only screen and (max-width: 1300px) {
     .Blog-itemstyle {
-        width: 800px;
-        
+        width: 790px;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .Blog-itemstyle {
+       margin: 0 auto;
     }
 
 }

@@ -4,16 +4,19 @@ import Home from './components/Home';
 import About from './components/About';
 import Blog from './components/Blog';
 import Contact from './components/Contact';
+import ArticulesPage from './components/ArticulesPage';
 import './App.css';
+
 
 function App() {
   return (
     <Router>
       <Fragment>
         <Route exact path="/" component={Home} />
-        <Route exact path="/CodeDestinee/About" component={About} />
-        <Route exact path="/CodeDestinee/Blog" component={Blog} />
-        <Route exact path="/CodeDestinee/Contact" component={Contact} />
+        <Route exact path="/About" component={About} />
+        <Route exact path="/Blog" component={Blog} />
+        <Route exact path="/Contact" component={Contact} />
+        <Route exact path="/articule/:id" component={ArticulesPage} />
       </Fragment>
     </Router>
   );
