@@ -29,12 +29,12 @@ render(){
                 <div className='skills-container'>
                     <img className='skills-img' src={Computer} alt="coding tools" />
                     <h3 className='skills-subtitle'>Developer</h3>
-                    <p>ReactJS</p>
-                    <p>JavaScript</p>
-                    <p>Rest API</p>
-                    <p>NodeJS</p>
-                    <p>PostgresSQL</p>
-                    <p>MongoDM</p>
+                            <p>ReactJS</p>
+                            <p>JavaScript</p>
+                            <p>Rest API</p>
+                            <p>NodeJS</p>
+                            <p>PostgresSQL</p>
+                            <p>React Native</p>
                 </div>
                 <div className='skills-container'> 
                     <img className='skills-img' src={Market} alt="marketing tools"/>

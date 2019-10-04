@@ -21,7 +21,7 @@ class Home extends Component {
 
 render(){
     return(
-        <div>
+        <div className="Body">
             <NavBar />
             <div className='Header'>
                 <div className='HomeContent'>
@@ -45,8 +45,6 @@ render(){
                 < Youtube />
             </div>
             
-           
-
         </div>
     )
 }

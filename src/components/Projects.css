@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 
 .Project-title {
-    margin-top: 80px;
+    margin-top: 90px;
     font-family: 'Oswald', sans-serif;
     text-align: center;
     text-transform:  uppercase;
@@ -55,8 +55,8 @@
     text-align: center;
     margin: 10px;
     font-family: 'Oswald', sans-serif;
-    width: 200px;
-    height: 100px;
+    width: 250px;
+    height: 150px;
     opacity: .72;
     text-transform: uppercase;
     margin-bottom: 20px;
