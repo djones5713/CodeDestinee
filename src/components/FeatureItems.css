@@ -139,16 +139,18 @@
 
 @media only screen and (max-width: 800px){
     .Feature-itemstyle{
-       width: 780px;
+       width: 100%;
+     
     }
 
     .Feature-img {
-        width: 780px;
+        width: 100%;
     }
 
     .Feature-blurb { 
-        width: 670px;
+        width: 745px;
     }
+  
 
 
 }
