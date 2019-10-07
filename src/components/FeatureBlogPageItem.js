@@ -28,16 +28,15 @@ class FeatureBlogPageItem extends Component {
     }
 
     render(){
-        const { id, title, excerpt } = this.props.feature
+        const { id, title } = this.props.feature
         const {imageURL, isLoading } = this.state
         if(isLoading){
             return (
-               
                 <div className="FeatureBlog-itemstyle">
                     <img className="FeatureBlog-img" src={ imageURL } alt={title.rendered} />
                     <h2 className="FeatureBlog-tag">Lastest Blog</h2>
                     <h2 className="FeatureBlog-title">{ title.rendered }</h2>
-                   
+                    <Link className="FeatureBlog-link" to={`/feature/${id}`}>Read More</Link>
                 </div>
                 
              

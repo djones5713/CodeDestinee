@@ -4,6 +4,7 @@ import Articules from './Articules';
 import Feature from './Feature';
 import ListBlogs from './ListBlogs';
 import Youtube from './Youtube';
+import Footer from './Footer';
 import Destiny1 from './Images/Destiny1.png';
 import './Home.css';
 import Logo from './Images/Icon.png';
@@ -44,7 +45,7 @@ render(){
                 </div>
                 < Youtube />
             </div>
-            
+            <Footer />
         </div>
     )
 }

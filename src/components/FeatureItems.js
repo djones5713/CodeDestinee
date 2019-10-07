@@ -38,7 +38,7 @@ class FeatureItems extends Component {
                     <h2 className="Feature-tag">Lastest Blog</h2>
                     <h2 className="Feature-title">{ title.rendered }</h2>
                     <p className="Feature-blurb" dangerouslySetInnerHTML={{ __html: excerpt.rendered}} />
-                    <Link className="Feature-link" to={`/book/${id}`}>Read More</Link>
+                    <Link className="Feature-link" to={`/feature/${id}`}>Read More</Link>
                 </div>
              
             )

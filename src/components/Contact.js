@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import NavBar from './NavBar';
 import ContactBox from './ContactBox';
+import Footer from './Footer';
 import './Contact.css';
 
 
@@ -22,6 +23,7 @@ render(){
                         <ContactBox />
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }

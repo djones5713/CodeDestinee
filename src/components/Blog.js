@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import NavBar from './NavBar';
 import FeatureBlogPage from './FeatureBlogPage';
+import Footer from './Footer';
 import Articules from './Articules';
 import './Blog.css';
 
@@ -27,9 +28,11 @@ render(){
                        
                     </div>
                     <Articules />
+                    <Footer />
                 </div>
-            
         </div>
+           
+      
     )
 }
 }

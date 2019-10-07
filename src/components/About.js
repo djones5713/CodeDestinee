@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Navbar from './NavBar';
+import Footer from './Footer';
 import Destiny4 from './Images/Destiny4.png';
 import Logo from './Images/Icon.png';
 import AboutBlur from './AboutBlur';
@@ -30,12 +31,13 @@ render(){
                             <h6 className='About-subtitle'><strong>{this.state.subtitle}</strong></h6>
                         </div>
                         <img id='DestinyJ2' src={Destiny4} alt='Destiny Jones' />
-                        <a className='Resume' href='' blank_target=''>Resume</a>
+                        <a className='Resume' href='https://docs.google.com/document/d/18BqY5ERrVg1jd8HQG5ShE0JkOxDFxcst7Gqpi7aMzcc/edit?usp=sharing' target="_blank" rel="noopener noreferrer" >Resume</a>
                 </div>
             </div>
             <div className='Home-BottomContent'>
               <AboutBlur />
             </div>
+            <Footer />
         </div>
     )
 }
