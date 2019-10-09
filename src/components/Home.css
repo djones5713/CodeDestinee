@@ -9,7 +9,6 @@
     height: 400px;
     margin: 0 auto;
     background-color:#B954F4;
-
 }
 
 .HomeContent {
@@ -63,6 +62,7 @@
     background-color:  #F4F2F2;
     margin: 0 auto;
     width: 90%;
+    margin-bottom: 20px;
 }
 
 .Home-BottomContent-Two {

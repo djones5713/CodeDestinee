@@ -8,19 +8,32 @@
    
 }
 
+.Youtube-Container a {
+    text-decoration: none;
+}
 .Youtube-Header {
     width: 400px;
 }
 
 .Youtube-Title {
     text-transform: uppercase;
+    color: black;
     font-family: 'Oswald', sans-serif;
     font-size: 65px;
     margin-bottom: 0;
 }
 
+.Youtube-Title:hover {
+    color: #B954F4;
+}
+
+.Youtube-Subtitle:hover {
+    color: #B954F4;
+}
+
 .Youtube-Subtitle {
     text-transform: uppercase;
+    color: black;
     font-family: 'Oswald', sans-serif;
     margin-top: 0;
     font-size: 35px;

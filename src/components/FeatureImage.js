@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import FeatureItems from './FeatureItems';
+import FeatureImageItems from './FeatureImageItems';
 
-class Feature extends Component {
+class FeatureImage extends Component {
     constructor(props){
         super(props)
         this.state = {
@@ -26,7 +26,7 @@ class Feature extends Component {
         return(
         <div>
             {features.map(feature => (
-                <FeatureItems key={ feature.id} feature={feature} />
+                <FeatureImageItems key={ feature.id} feature={feature} />
             ))
 
             }
@@ -39,4 +39,4 @@ class Feature extends Component {
 
    
 
-export default Feature 
+export default FeatureImage

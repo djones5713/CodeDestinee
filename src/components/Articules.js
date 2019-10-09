@@ -13,7 +13,7 @@ class Articules extends Component {
     }
 
     componentDidMount(){
-        axios.get('/wp-json/wp/v2/articules')
+        axios.get('/wp-json/wp/v2/articules?per_page=3')
             .then(res => this.setState({
                 books: res.data,
                 isLoaded: true

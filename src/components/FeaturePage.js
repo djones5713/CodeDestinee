@@ -1,13 +1,14 @@
 import React, { Component} from 'react';
 import NavBar from './NavBar';
 import axios from 'axios';
+import Footer from './Footer';
+import FeatureImage  from './FeatureImage';
 import './FeaturePage.css';
 
 class FeaturePage extends Component {
     state = {
         book: {},
         isLoading: false,
-        imageURL: ''
     }
     
 
@@ -19,11 +20,11 @@ class FeaturePage extends Component {
                 book: res.data,
                 isLoading: true
             })
-            console.log(this.props)
+            console.log(this.state.book)
         })
             .catch(err => console.log(err))
 }
-   
+
 
 
     render(){
@@ -32,11 +33,16 @@ class FeaturePage extends Component {
 
         if(isLoading){
             return(
-                
                 <div>
                     <NavBar />
-                    <div className='FeaturePage-blurb' dangerouslySetInnerHTML={{ __html: book.content.rendered }}></div>
-                   
+                    <div className='Feature-container'>
+                        <div className="Image-container">
+                            <FeatureImage />
+                        </div>
+                        <div className='FeaturePage-blurb' dangerouslySetInnerHTML={{ __html: book.content.rendered }}></div>
+                    <Footer />
+                    </div>
+
                 </div>
             )
         }

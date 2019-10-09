@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from 'react';
+import ArticuleImageItem from './ArticuleImageItem';
 import NarBar from './NavBar';
 import axios from 'axios';
 
@@ -29,9 +30,9 @@ class ArticulePage extends Component {
                 <Fragment>
 
                     <NarBar />
-                    <h1>{book.title.rendered}</h1>
-                    <div dangerouslySetInnerHTML={{ __html: book.content.rendered }}></div>
-                    <h4> Publisher: {book.acf.publisher}</h4>
+                    
+                    <h1>{book.featured_media}</h1>
+                    <div className='FeaturePage-blurb' dangerouslySetInnerHTML={{ __html: book.content.rendered }}></div>
                 </Fragment>
             )
         }
